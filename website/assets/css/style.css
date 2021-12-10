@@ -1,5 +1,7 @@
 body {
   background: #bdbdbd;
+  width: 1000px;
+  margin: 0 auto;
 }
 .break-line {
   width: 75%;
@@ -65,14 +67,12 @@ body {
   text-align: center;
 }
 
-
-/*----CSS---*/ 
+/*----CSS---*/
 
 .body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   /*background: black;*/
-  
-  }
+}
 
 .centrar {
   width: 1000px;
@@ -81,16 +81,12 @@ body {
 
 /*.border {
   border: 1px solid;*/
-  
-
 
 /*PARTE 4*/
 
 .textopart4 {
   margin-left: 50px;
-
 }
-
 
 .imgpart4 {
   border-radius: 50%;
@@ -98,21 +94,17 @@ body {
 
 .Testimonials {
   width: auto;
-  height: 950px; 
+  height: 950px;
   background: rosybrown;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .cajas {
-  display:flex;
-  
-
+  display: flex;
 }
 .caja1 {
- width: 33%;
- /*border: 1px solid gray;*/
- margin-right: 50px;
-
-
+  width: 33%;
+  /*border: 1px solid gray;*/
+  margin-right: 50px;
 }
 .ultimo {
   text-align: center;
@@ -120,7 +112,7 @@ body {
 }
 .Titulo3 {
   text-align: left;
-  }
+}
 .ultimotexto {
   margin-top: 25px;
   /*font-size:*/
@@ -128,7 +120,7 @@ body {
 .cuadrado {
   width: 300px;
   height: 170px;
-  background-color:rgb(199, 194, 194);
+  background-color: rgb(199, 194, 194);
   margin: auto;
   margin-top: 30px;
 }
@@ -137,7 +129,7 @@ body {
   margin: 0 auto;
 }
 p {
-  text-align: justify
+  text-align: justify;
 }
 
 .login {
@@ -145,5 +137,4 @@ p {
   height: 300px;
   margin: 0 auto;
   background-color: gray;
- }
-
+}
