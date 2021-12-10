@@ -68,16 +68,16 @@ body {
 
 /*----CSS---*/ 
 
-.body {
+/*.body {
   font-family: Verdana, Geneva, Tahoma, sans-serif
-  /*background: black;*/
+  background: black;*/
   
-  }
 
-.centrar {
+
+/*.centrar {
   width: 1000px;
-  margin: 0 auto;
-}
+  margin: 0 auto;*/
+
 
 /*.border {
   border: 1px solid;*/
@@ -126,8 +126,8 @@ body {
   /*font-size:*/
 }
 .cuadrado {
-  width: 300px;
-  height: 170px;
+  width: 250px;
+  height: 140px;
   background-color:rgb(199, 194, 194);
   margin: auto;
   margin-top: 30px;
