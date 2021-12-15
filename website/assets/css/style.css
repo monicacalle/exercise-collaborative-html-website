@@ -19,7 +19,7 @@ body {
   top: 30px;
   left: 10%;
 }
-#title-color {
+.title-color {
   color: gray;
 }
 .example-content {
@@ -37,9 +37,9 @@ body {
   align-items: center;
   background-color: white;
 }
-.first-heading-image {
+.heading-image {
   width: 300px;
-  height: 350px;
+  object-fit: cover;
 }
 
 .tagline-background {
@@ -74,11 +74,9 @@ body {
   /*background: black;*/
 }
 
-
 /*.centrar {
   width: 1000px;
   margin: 0 auto;*/
-
 
 /*.border {
   border: 1px solid;*/
@@ -98,6 +96,10 @@ body {
   height: 950px;
   background: rosybrown;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.w-90 {
+  width: 90%;
 }
 .cajas {
   display: flex;
@@ -121,13 +123,28 @@ body {
 .cuadrado {
   width: 250px;
   height: 140px;
-  background-color:rgb(199, 194, 194);
+  background-color: rgb(199, 194, 194);
   margin: auto;
   margin-top: 30px;
 }
 .centrar2 {
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
+}
+.border-1 {
+  border: 1px #333 solid;
+}
+
+.pl-5 {
+  padding-left: 50px;
+}
+
+.pr-1 {
+  padding-right: 10px;
+}
+
+.negative-mt-1 {
+  margin-top: -10px;
 }
 p {
   text-align: justify;
@@ -137,5 +154,5 @@ p {
   width: 600px;
   height: 300px;
   margin: 0 auto;
-  background-color: gray;
+  background-color: rgb(231, 216, 216);
 }
